@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 
-public class Conexao {
+public class Conexao { 
 	
 	private static Connection sqlConn = null, sqlConnAux = null, sqlConnConsulta = null;
 	private static Connection mysqlConn = null, mysqlConnAux = null;
